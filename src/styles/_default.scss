@@ -1,0 +1,11 @@
+html, body {
+  width: 1296px;
+  height: 3113px;
+
+  font-family: $font-family;
+  
+}
+
+.container {
+  @include container();
+}
