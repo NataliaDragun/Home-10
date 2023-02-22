@@ -1,0 +1,317 @@
+// NICON
+.section-1 {
+  margin-top: 31px;
+}
+
+.cameras {
+ 
+  &__image {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  &__description {
+    position: relative;
+    bottom: 380px;
+    left: 214px;
+
+    font-size: $font-32;
+    font-weight: $font-w-700;
+    color: $white;
+
+    &_2 {
+      position: relative;
+      bottom: 358px;
+      left: 214px;
+
+      font-size: $font-16;
+      font-weight: $font-w-400;
+      color: $white;
+
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $yellow;
+    font-size: $font-16;
+    font-weight: $font-w-500;
+
+    &_border {
+      position: relative;
+      bottom: 250px;
+      left: 214px;
+
+      width: 220px;
+      height: 46px;
+      border: 2px solid $yellow;
+      border-radius: 28px;
+      text-align: center;
+      padding: 1rem;
+    }
+  }  
+}
+
+// BLOCK SALE
+.section-2 {
+  margin-top: 80px;
+}
+
+.section-block {
+  @include flex();
+
+  &__product {
+    width: 352px;
+    height: 280px;
+    background-color: $gray;
+    border-radius: 20px;
+
+    padding: 2rem;
+
+    &_description {
+      font-size: $font-16;
+      font-weight: $font-w-400;
+
+    }
+
+    &_price {
+      position: relative;
+      bottom: 32px;
+      font-size: $font-24;
+      font-weight: $font-w-700;
+      text-align: right;
+
+    }
+
+    &_img1 {
+      width: 208px;
+      height: 160px;
+
+    }
+
+    &_img11 {
+      position: relative;
+      left: 170px;
+      bottom: 80px;
+
+    }
+
+    &_img2 {
+      position: relative;
+      left: 45px;
+      width: 148px;
+      height: 159px;
+
+    }
+
+    &_img22 {
+      position: relative;
+      top: 25px;
+     
+    }
+
+    &_img3 {
+      position: relative;
+      left: 45px;
+      width: 160px;
+      height: 160px;
+      
+    }
+
+    &_img33 {
+      position: relative;
+      top: 25px;
+     
+    }
+  }
+}
+
+// Хиты продаж
+.section-3 {
+
+  &__title {
+    margin-top: 49px;
+    margin-bottom: 74px;
+    margin-left: 88px;
+
+    font-size: $font-32;
+    font-weight: $font-w-500;
+  }
+}
+.product {
+  &__image1 {
+    width: 152px;
+    height: 148px;
+
+  }
+
+  &__image2 {
+    width: 149px;
+    height: 153px;
+    
+  }
+
+  &__image3 {
+    width: 152px;
+    height: 100px;
+    
+  }
+
+  &__image4 {
+    width: 174px;
+    height: 150px;
+    
+  }
+
+  &__image5 {
+    width: 176px;
+    height: 150px;
+    
+  }
+
+  &__image6 {
+    width: 152px;
+    height: 148px;
+    
+  }
+
+  &__image7 {
+    width: 181px;
+    height: 186px;
+    
+  }
+
+  &__image8 {
+    width: 152px;
+    height: 149px;
+    
+  }
+
+  &__image9 {
+    width: 133px;
+    height: 143px;
+    
+  }
+
+  &__image10 {
+    width: 176px;
+    height: 182px;
+    
+  }
+
+  &__price {
+    font-weight: $font-w-500;
+
+    &_decoration {
+      color: $rgba;
+      text-decoration: line-through;
+      padding: .5rem;
+
+    }
+  }
+
+  &__description {
+    font-size: $font-14;
+    font-weight: $font-w-400;
+    color: $rgba;
+
+    padding: .5rem 0;
+    margin-bottom: 51px;
+  }
+}
+
+.section-link {
+  width: 220px;
+  height: 46px;
+ 
+  border-radius: 28px;
+  padding: 1rem;
+  margin: 0 auto;
+
+  background-color: $gray-light;
+  text-align: center;
+
+  &__link {
+    text-decoration: none;
+    font-size: $font-16;
+    font-weight: $font-w-500;
+    color: $black;
+
+  }
+}
+
+.section-4 {
+  margin-top: 80px;
+
+  &__image {
+    padding: .7rem;
+  }
+}
+
+// ОБЗОРЫ
+.block-5 {
+  margin-bottom: 98px;
+
+  &__image {
+    width: 348px;
+    height: 246px;
+  }
+
+  &__description {
+    font-size: $font-16;
+    font-weight: $font-w-400;
+    color: $black;
+    text-align: center;
+
+    padding: 1rem;
+  }
+}
+
+// INSTAGRAM
+.section-6 {
+  margin-bottom: 80px;
+
+  &__image {
+    padding: 1rem;
+    
+  }
+  
+  &__image1 {
+    width: 220px;
+    height: 204px;
+
+  }
+
+  &__image2 {
+    width: 202px;
+    height: 202px;
+    
+  }
+
+  &__image3 {
+    width: 220px;
+    height: 202px;
+    
+  }
+
+  &__image4 {
+    width: 301px;
+    height: 204px;
+    
+  }
+
+  &__image5 {
+    width: 304px;
+    height: 203px;
+    
+  }
+
+  &__link {
+    position: relative;
+    bottom: 110px;
+    left: 470px;
+    text-decoration: none;
+    color: $white;
+  }
+}

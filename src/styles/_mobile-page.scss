@@ -1,0 +1,181 @@
+.header-mobile {
+  width: 591px;
+  height: 296px;
+
+  margin-bottom: 36px;
+  padding: 2rem;
+
+  &__time {
+    position: absolute;
+    left: 44px;
+
+    color: $white;
+    font-size: $font-24;
+    font-weight: $font-w-700;
+
+  }
+
+  &__img1 {
+    position: absolute;
+    left: 467px;
+
+  }
+
+  &__img2 {
+    position: absolute;
+    left: 501px;
+
+  }
+
+  &__img3 {
+    position: absolute;
+    left: 536px;
+
+  }
+
+  &__img4 {
+    position: absolute;
+    top: 72px;
+    left: 531px;
+  }
+
+  &__title {
+    position: absolute;
+    top: 158px;
+    left: 24px;
+
+    color: $white;
+    font-size: $font-48;
+    font-weight: $font-w-700;
+
+  }
+}
+
+.search-mobile {
+  position: absolute;
+  top: 214px;
+  left: 24px;
+  
+  &__input {
+    width: 543px;
+    height: 68px;
+    border-radius: 116px;
+    border: none;
+    background-color: $gray;
+    padding-left: 3rem;
+
+  }
+
+  &__image {
+    position: absolute;
+    top: 20px;
+    right: 503px;
+
+  }
+}
+
+.section-mobile {
+  width: 591px;
+  height: 861px;
+
+  &__title {
+    margin-top: 48px;
+    margin-left: 24px;
+    font-size: $font-28;
+    font-weight: $font-w-400;
+
+  }
+}
+
+.section-1m {
+  background-image: url('../images/camera.png');
+  background-size: 100% 100%;
+  width: 540px;
+  height: 330px;
+  margin: 0 auto;
+  
+  &__description {
+    position: relative;
+    left: 100px;
+
+    font-size: $font-28;
+    font-weight: $font-w-700;
+    color: white;
+    padding: 1rem;
+
+    &_2 {
+      position: relative;
+      left: 100px;
+
+      font-size: $font-16;
+      font-weight: $font-w-400;
+      color: white;
+      padding-left: 1rem;
+      
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $yellow;
+    font-size: $font-16;
+    font-weight: $font-w-500;
+
+    &_border {
+      position: relative;
+      top: 128px;
+      left: 59px;
+
+      width: 220px;
+      height: 46px;
+      border: 2px solid $yellow;
+      border-radius: 28px;
+      text-align: center;
+      padding: 1rem;
+
+    }
+  }
+}
+
+// ХИТЫ ПРОДАЖ
+.mobile-product {
+  padding: 2rem;
+
+  &__image1 {
+    width: 244px;
+    height: 251px;
+
+  }
+
+  &__image2 {
+    width: 244px;
+    height: 161px;
+
+  }
+
+  &__price {
+    color: $red;
+  }
+
+  &__icon1 {
+    position: relative;
+    bottom: 90px;
+    left: 220px;
+
+  }
+
+  &__icon2 {
+    position: relative;
+    bottom: 80px;
+    left: 220px;
+    
+  }
+}
+
+.footer-mobile {
+  width: 591px;
+  height: 123px;
+  border-top: 1px solid $black;
+
+  padding: 1rem;
+}

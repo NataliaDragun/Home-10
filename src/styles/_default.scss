@@ -1,6 +1,8 @@
 html, body {
-  width: 1296px;
-  height: 3113px;
+  box-sizing: border-box;
+  max-width: 1296px;
+  max-height: 3113px;
+
 
   font-family: $font-family;
   

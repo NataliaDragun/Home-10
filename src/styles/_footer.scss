@@ -1,0 +1,44 @@
+.footer {
+  width: 1296px;
+  height: 428px;
+  background-color: $black;
+
+  &__lists {
+    list-style: none;
+
+    &_2,
+    &_3 {
+      padding-top: 2rem;
+    }
+  }
+
+  &__list {
+    padding: .8rem;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    font-size: $font-16;
+    font-weight: $font-w-400;
+    color: $white;
+
+  }
+
+  &-contact {
+    position: relative;
+    bottom: 80px;
+    padding-top: 2rem;
+
+    text-align: center;
+
+  }
+
+  &__contacts {
+    font-size: $font-16;
+    font-weight: $font-w-500;
+    color: $white;
+    padding: .5rem;
+
+  }
+}

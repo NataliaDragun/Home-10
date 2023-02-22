@@ -1,0 +1,36 @@
+.swiper {
+  width: 1120px;
+  height: 360px;
+  
+}
+
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  color: $black;
+  background-color: $rgba-1;
+
+  &:after {
+    content: 'next';
+    color: $black;
+    
+  }
+}
+
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  color: $black;
+  background-color: $rgba-1;
+
+  &:after {
+    content: 'prev';
+    color: $black;
+    
+  }
+}
+

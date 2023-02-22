@@ -1,0 +1,15 @@
+.navbar {
+  &__lists {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__link {
+    color: $gray-darken;
+    font-size: $font-14;
+
+    padding: 1.5rem;
+
+  }
+}
