@@ -1,0 +1,31 @@
+.btn {
+  @include transition();
+  
+  width: 148px;
+  height: 46px;
+  text-decoration: none;
+  margin-left: 25px;
+  padding: 1rem;
+  border-radius: 8px;
+  
+  
+  font-size: $font-18;
+  text-align: center;
+  color: $black;
+  background-color: $yellow;
+
+  &__section-1 {
+    text-decoration: none; 
+    color: $yellow;
+    font-size: $font-16;
+    font-weight: $font-w-500;
+
+  }
+
+  &__section-3 {
+  text-decoration: none;
+  font-size: $font-16;
+  font-weight: $font-w-500;
+  color: $black;
+  }
+}

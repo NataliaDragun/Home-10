@@ -5,12 +5,7 @@
 }
 
 .swiper-button-next {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-
-  color: $black;
-  background-color: $rgba-1;
+  @include swiper-button();
 
   &:after {
     content: 'next';
@@ -20,12 +15,7 @@
 }
 
 .swiper-button-prev {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-
-  color: $black;
-  background-color: $rgba-1;
+  @include swiper-button();
 
   &:after {
     content: 'prev';

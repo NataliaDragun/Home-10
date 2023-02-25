@@ -32,25 +32,19 @@
     }
   }
 
-  &__link {
-    text-decoration: none;
-    color: $yellow;
-    font-size: $font-16;
-    font-weight: $font-w-500;
+  &__btn {
+    position: relative;
+    bottom: 220px;
+    left: 180px;
 
-    &_border {
-      position: relative;
-      bottom: 250px;
-      left: 214px;
+    width: 220px;
+    height: 46px;
+    border: 2px solid $yellow;
+    border-radius: 28px;
+    padding: 1rem;
 
-      width: 220px;
-      height: 46px;
-      border: 2px solid $yellow;
-      border-radius: 28px;
-      text-align: center;
-      padding: 1rem;
-    }
-  }  
+    text-align: center;
+  }
 }
 
 // BLOCK SALE
@@ -67,7 +61,7 @@
     background-color: $gray;
     border-radius: 20px;
 
-    padding: 2rem;
+    padding: 1.5rem;
 
     &_description {
       font-size: $font-16;
@@ -78,6 +72,7 @@
     &_price {
       position: relative;
       bottom: 32px;
+
       font-size: $font-24;
       font-weight: $font-w-700;
       text-align: right;
@@ -85,8 +80,8 @@
     }
 
     &_img1 {
-      width: 208px;
-      height: 160px;
+      width: 70%;
+      height: 70%;
 
     }
 
@@ -100,6 +95,7 @@
     &_img2 {
       position: relative;
       left: 45px;
+
       width: 148px;
       height: 159px;
 
@@ -113,7 +109,8 @@
 
     &_img3 {
       position: relative;
-      left: 45px;
+      left: 60px;
+
       width: 160px;
       height: 160px;
       
@@ -121,7 +118,7 @@
 
     &_img33 {
       position: relative;
-      top: 25px;
+      top: 30px;
      
     }
   }
@@ -132,9 +129,8 @@
 
   &__title {
     margin-top: 49px;
-    margin-bottom: 74px;
-    margin-left: 88px;
-
+    margin-bottom: 70px;
+    
     font-size: $font-32;
     font-weight: $font-w-500;
   }
@@ -148,12 +144,12 @@
 
   &__image2 {
     width: 149px;
-    height: 153px;
+    height: 148px;
     
   }
 
   &__image3 {
-    width: 152px;
+    width: 148px;
     height: 100px;
     
   }
@@ -219,25 +215,16 @@
     padding: .5rem 0;
     margin-bottom: 51px;
   }
-}
 
-.section-link {
-  width: 220px;
-  height: 46px;
- 
-  border-radius: 28px;
-  padding: 1rem;
-  margin: 0 auto;
+  &__btn {
+    width: 220px;
+    height: 46px;
+    border-radius: 28px;
+    margin: 0 auto;
+    padding: 1rem;
 
-  background-color: $gray-light;
-  text-align: center;
-
-  &__link {
-    text-decoration: none;
-    font-size: $font-16;
-    font-weight: $font-w-500;
-    color: $black;
-
+    background-color: $gray-light;
+    text-align: center;
   }
 }
 
@@ -251,7 +238,7 @@
 
 // ОБЗОРЫ
 .block-5 {
-  margin-bottom: 98px;
+  margin-bottom: 80px;
 
   &__image {
     width: 348px;
@@ -278,39 +265,40 @@
   }
   
   &__image1 {
-    width: 220px;
+    width: 250px;
     height: 204px;
 
   }
 
   &__image2 {
-    width: 202px;
+    width: 250px;
     height: 202px;
     
   }
 
   &__image3 {
-    width: 220px;
+    width: 250px;
     height: 202px;
     
   }
 
   &__image4 {
-    width: 301px;
-    height: 204px;
+    width: 250px;
+    height: 202px;
     
   }
 
   &__image5 {
-    width: 304px;
-    height: 203px;
+    width: 250px;
+    height: 202px;
     
   }
 
   &__link {
     position: relative;
     bottom: 110px;
-    left: 470px;
+    left: 560px;
+    
     text-decoration: none;
     color: $white;
   }

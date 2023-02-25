@@ -1,11 +1,11 @@
 .navbar {
   &__lists {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    @include flex();
   }
 
   &__link {
+    @include transition();
+    
     color: $gray-darken;
     font-size: $font-14;
 

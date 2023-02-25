@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+  
+  .header-block {
+    flex-direction: column;
+
+    &__form {
+      display: none;
+    }
+
+    &__link {
+      display: none;
+
+      &_adress {
+        display: none;
+      }
+    }
+
+    &__title {
+      margin-right: 200px;
+      padding: 1rem;
+  
+      color: $white;
+      font-size: $font-48;
+      font-weight: $font-w-700;
+  
+    }
+  }
+
+  .navbar,
+  .btn {
+    display: none;
+
+  }
+
+  .swiper {
+   width: 100%;
+
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+
+  }
+
+
+  .cameras {
+    text-align: center;
+
+    &__1 {
+
+    }
+
+    &__description {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      
+      font-size: $font-28;
+    
+    }
+
+    &__btn {
+      bottom: 100px;
+    }
+  }
+
+  .section-2 {
+    display: none;
+
+  }
+
+  .section-3 {
+      
+    &__title {
+      margin: 0;
+      padding: 1rem;
+      font-size: $font-28;
+      font-weight: $font-w-400;
+
+    }
+  }
+
+  .product {
+    &__description {
+      padding: 1rem .5rem;
+    }
+
+    &__btn {
+      display: none;
+
+    }
+  }
+
+  .section-4,
+  .section-5,
+  .section-6 {
+    display: none;
+  }
+
+  .footer__lists,
+  .footer__lists_3,
+  .footer-contact {
+    display: none;
+  }
+
+  .footer {
+    height: 100%;
+
+    padding: .5rem;
+    text-align: center;
+
+    &__list {
+      padding-top: 0;
+      padding-bottom: 2rem;
+
+      }
+
+    &__link {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+
+      text-decoration: overline;
+      font-size: $font-14;
+
+    }
+  } 
+}
+
+
+
+  
